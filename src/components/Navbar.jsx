@@ -4,6 +4,7 @@ import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { SiLeetcode } from "react-icons/si";
 import { FaHackerrank } from "react-icons/fa";
+import { PiReadCvLogoFill } from "react-icons/pi";
 
 const Navbar = () => {
   return (
@@ -16,6 +17,7 @@ const Navbar = () => {
             <FaGithub/>
             <SiLeetcode/>
             <FaHackerrank/> 
+            <PiReadCvLogoFill />
         </div>
     </nav>
   )
