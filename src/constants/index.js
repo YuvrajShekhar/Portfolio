@@ -11,34 +11,75 @@ export const HERO_CONTENT_P3 = `Beyond my professional pursuits, I hold a 1st De
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Nov 2024 - Present",
+    duration : "(3 Months)",
+    role: "Information Technology Administrator",
+    company: "Bearlocal GmbH",
+    description: {
+      p1 : `Developed a landing page for a telecommunication software using React, delivering a modern and user-friendly interface.`,
+      p2 : `Configured and optimized IT infrastructure, including workstation setups, software installations, driver configurations, and data encryption with BitLocker and VeraCrypt.`,
+      p3 : `Customized and managed Dolibarr CRM, enhancing modules with contract management, ticketing systems, search filters, email templates, and time-sheet tracking.`,
+      p4 : `Proposed and implemented process automation innovations, including WhatsApp integration, website creation, SEO optimization, and task management improvements.`,
+    } ,
+    technologies: ["Javascript", "React.js", "MySQL", "Dolibarr CRM"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Sep 2022 - Sep 2024",
+    duration : "(3 Years 1 Month)",
+    role: "Senior Software Engineer",
+    company: "Subex",
+    description: {
+      p1 : `Cybersecurity: Work on developing new cybersecurity related products or further enhancing existing different ones.`,
+      p2 : `Design and Architecture: Collaborate with product managers and other developers to design software solutions that meet business requirements. Create high-level, low-level and database designs and detailed technical design documentation.`,
+      p3 : `Coding and Implementation: Write clean, maintainable, and efficient code using appropriate coding practices and design patterns. Develop new features and functionalities for the product.`,
+      p4 : `Web Development: Build Full-stack application for the web for both internal and external use.`,
+      p5 : `Develop and Maintain APIs: Code and develop APIs, be able to research and address integration issues.`,
+      p6 : `Testing and Debugging: Conduct unit testing and integration testing to ensure software quality and functionality. Identify and fix bugs and performance bottlenecks.`,
+      p7 : `Version Control: Use version control systems (e.g., Git) to manage code changes and collaborate effectively with team members.`,
+      p8 : ` Documentation: Document code, workflows, and technical specifications for both internal and external use.`,
+      p9 : ` Automation & Scripting: Write code to automate multiple tasks over the multiple functionalities in the system`,
+    } ,
+    technologies: ["Python", "Django","Bash","Linux","Apache","Git","React.js","Javascript","MySQL","PostgreSQL","MongoDB" ],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "Feb 2021 - Jul 2021",
+    duration : "(6 Months)",
+    role: "Software Intern",
+    company: "Subex",
+    description: {
+      p1 : `Built Cyber Threat Intelligence Platform consisting of APIs to exchange Threat-Intel data and dashboards and visualiser to visualise the same using Django and Bootstrap.`,
+      p2 : `Designed server side Decoy and Deception module and deployed it across multiple sites to redirect malicious connections to decoy network`,
+      p3 : `Designed and built a honeypot‑dashboard which allow user to analyse all the honeypot data processed using multiple algorithms n rules.`,
+      p4 : `Designed and developed a bot detection system which can detect a bot attack on any website/API like DOS,Brute‑force etc and alert using and add entry of the details in the dashboard.`,
+    } ,
+    technologies: ["Python", "Django","Shell-scripting","Apache","Javascript","Bootstrap","MySQL","MongoDB" ],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Oct 2020 - Dec 2020",
+    duration : "(3 Months)",
+    role: "Performance Test Intern",
+    company: "Comviva",
+    description: {
+      p1 : `Build Dashboards for Tracking the Performance of Factoreal Business and Traffic Performance for different Customers Using the Platform.`,
+      p2 : `Write scripts to migrate data across systems using Node.js. Use Postman for Load testing and Strapi to build custom API’s.`,
+    } ,
+    technologies: ["Postman", "JSON","Strapi"],
   },
 ];
+
+export const EDUCATION = [
+  {
+    year: "October 2024 - Present",
+    university : "IU International University of Applied Sciences",
+    branch : "M.Sc. Computer Science",
+  },
+  {
+    year: "August 2017 - August 2021",
+    university : "University Visvesvaraya College of Engineering (UVCE)",
+    branch : "BE in Electical and Electronics",
+  },
+]
+
 
 export const PROJECTS = [
   {

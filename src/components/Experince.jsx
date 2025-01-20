@@ -19,18 +19,27 @@ const Experince = () => {
                     transition={{duration:1}}
                     className='w-full lg:w-1/4'>
                     <p className='mb-2 text-sm text-neutral-400'>{experince.year}</p>
+                    <p className='mb-2 text-sm text-red-400'>{experince.duration}</p>
                     </motion.div>
                     <motion.div 
                     whileInView={{opacity:1,x:0}}
                     initial={{opacity:0,x:100}}
                     transition={{duration:1}}
                     className='w-full max-w-xl lg:w-3/4'>
-                    <h6 className='mb-2 font-semibold '>{experince.role} - <span className='text-sm text-purple-100'>{experince.company}</span>
+                    <h6 className='mb-2 font-semibold '>{experince.role} - <span className='text-sm text-yellow-300'>{experince.company}</span>
                     </h6>
-                    <p className='mb-4 text-neutral-400'>{experince.description}</p>
-                    {experince.technologies.map((tech, index) => (
-                        <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>{tech}</span>
+                    <ul className="list-disc list-outside">
+                    {Object.values(experince.description).map((point, index) => (
+                        <li key={index} className="mb-4 text-neutral-400">{point}</li>
+                     ))}
+                    </ul>
+                    <div className="flex flex-wrap mt-4">
+                        {experince.technologies.map((tech, index) => (
+                        <span key={index} className='mr-2 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-300'>
+                        {tech}
+                        </span>
                     ))}
+                    </div>
                     </motion.div>
                 </motion.div>
             ))}

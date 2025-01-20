@@ -49,7 +49,7 @@ const Hero = () => {
                 initial="hidden"
                 animate="visible"
                 className='m-2 max-w-xl py-6 font-light tracking-tighter'
-                style={{ paddingTop: "0px", paddingBottom: "0px" }}>
+                style={{ paddingTop: "0px" }}>
                     {HERO_CONTENT_P3}
                 </motion.p>
             </div>
