@@ -1,5 +1,5 @@
 import React from 'react'
-import { HERO_CONTENT } from '../constants'
+import { HERO_CONTENT_P1,HERO_CONTENT_P2,HERO_CONTENT_P3 } from '../constants'
 import ProfilePic from '../assets/YuvrajShekharProfile.jpg'
 import { motion } from "motion/react"
 
@@ -27,13 +27,30 @@ const Hero = () => {
                 variants={container(0.5)}
                 initial="hidden"
                 animate="visible"
-                className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent'>Full Stack Developer</motion.span >
+                className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>Software Engineer</motion.span >
                 <motion.p 
                 variants={container(1)}
                 initial="hidden"
                 animate="visible"
-                className='m-2 max-w-xl py-6 font-light tracking-tighter'>
-                    {HERO_CONTENT}
+                className='m-2 max-w-xl py-6 font-light tracking-tighter'
+                style={{paddingBottom: "0px" }}>
+                    {HERO_CONTENT_P1}
+                </motion.p>
+                <motion.p 
+                variants={container(1)}
+                initial="hidden"
+                animate="visible"
+                className='m-2 max-w-xl py-6 font-light tracking-tighter' 
+                style={{ paddingTop: "0px", paddingBottom: "0px" }}>
+                    {HERO_CONTENT_P2}
+                </motion.p>
+                <motion.p 
+                variants={container(1)}
+                initial="hidden"
+                animate="visible"
+                className='m-2 max-w-xl py-6 font-light tracking-tighter'
+                style={{ paddingTop: "0px", paddingBottom: "0px" }}>
+                    {HERO_CONTENT_P3}
                 </motion.p>
             </div>
         </div>
