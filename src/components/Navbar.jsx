@@ -14,11 +14,11 @@ const Navbar = () => {
             <img className="mx-2 w-10" src={logo} alt="logo" />
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <a href="https://www.linkedin.com/in/yuvraj-shekhar-663541289/" title="LinkedIn" target="_blank" rel="noreferrer"><FaLinkedin/></a>
+            <a href="https://www.linkedin.com/in/yuvraj-shekhar-663541289/" title="LinkedIn" target="_blank" rel="noreferrer"><FaLinkedin style={{ color: "#0A66C2"}} /></a>
             <a href="https://github.com/YuvrajShekhar" title="Github" target="_blank" rel="noreferrer"><FaGithub/></a>
-            <a href="https://leetcode.com/u/syuvraj1999/" title="Leetcode" target="_blank" rel="noreferrer"><SiLeetcode/></a>
-            <a href="https://www.hackerrank.com/profile/syuvraj1999" title="HackerRank" target="_blank" rel="noreferrer"><FaHackerrank/></a> 
-            <a href={resume} title="Resume" target="_blank" rel="noreferrer"><PiReadCvLogoFill /></a>
+            <a href="https://leetcode.com/u/syuvraj1999/" title="Leetcode" target="_blank" rel="noreferrer"><SiLeetcode style={{color:"#fea116"}}/></a>
+            <a href="https://www.hackerrank.com/profile/syuvraj1999" title="HackerRank" target="_blank" rel="noreferrer"><FaHackerrank style={{color:"#04b464"}}/></a> 
+            <a href={resume} title="Resume" target="_blank" rel="noreferrer"><PiReadCvLogoFill style={{color:"#F94F4F"}}/></a>
         </div>
     </nav>
   )
