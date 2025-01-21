@@ -29,10 +29,17 @@ const Experince = () => {
                     <h6 className='mb-2 font-semibold '>{experince.role} - <span className='text-sm text-yellow-300'>{experince.company}</span>
                     </h6>
                     <ul className="list-disc list-outside">
-                    {Object.values(experince.description).map((point, index) => (
-                        <li key={index} className="mb-4 text-neutral-400">{point}</li>
-                     ))}
-                    </ul>
+                        {Object.values(experince.description).map((point, index) => {
+                            // Split the string into two parts: before and after the colon
+                            const [boldText, normalText] = point.split(':', 2);
+
+                            return (
+                            <li key={index} className="mb-4 text-neutral-400">
+                                <span className="font-bold">{boldText}:</span> {normalText}
+                            </li>
+                            );
+                        })}
+                        </ul>
                     <div className="flex flex-wrap mt-4">
                         {experince.technologies.map((tech, index) => (
                         <span key={index} className='mr-2 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-300'>
