@@ -40,63 +40,63 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <RiReactjsLine className='text-7xl text-cyan-400'/>
+                <RiReactjsLine title="React" className='text-7xl text-cyan-400'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(5)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiDjango className='text-7xl' color='rgb(21 128 61/var(--tw-text-opacity))'/>
+                <SiDjango title="Django" className='text-7xl' color='rgb(21 128 61/var(--tw-text-opacity))'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(3)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaPython className='text-7xl' color='rgb(49 112 163/var(--tw-text-opacity))'/>
+                <FaPython  title="Python" className='text-7xl' color='rgb(49 112 163/var(--tw-text-opacity))'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(6)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <IoLogoJavascript className='text-7xl' color='rgb(255, 255, 0)'/ >
+                <IoLogoJavascript  title="Javascript" className='text-7xl' color='rgb(255, 255, 0)'/ >
             </motion.div>
             <motion.div 
             variants={iconVariants(2)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiMysql className='text-7xl' color='#00758F'/>
+                <SiMysql title="Mysql" className='text-7xl' color='#00758F'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(9)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <BiLogoMongodb className='text-7xl' color='#4DB33D'/>
+                <BiLogoMongodb title="Mongodb" className='text-7xl' color='#4DB33D'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(1.5)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaGitAlt className='text-7xl' color='#f1502f'/>
+                <FaGitAlt title="Git" className='text-7xl' color='#f1502f'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(6.5)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiApache className='text-7xl' color='#CC2336'/>
+                <SiApache title="Apache" className='text-7xl' color='#CC2336'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(4)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaLinux className='text-7xl' color='#ffffff'/>
+                <FaLinux title="Linux" className='text-7xl' color='#ffffff'/>
             </motion.div>
         </motion.div>
         </div>
