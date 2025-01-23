@@ -6,6 +6,7 @@ import Experince from './components/Experince'
 import Projects from './components/Projects'
 import Education from './components/Education'
 import Contact from './components/Contact'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       {/* <Projects/> */}
       <Education/>
       <Contact/>
+      <SpeedInsights/>
       </div>
     </div>
   )
