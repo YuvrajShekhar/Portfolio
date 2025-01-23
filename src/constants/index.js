@@ -3,11 +3,11 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT_P1 = `I am a driven Software Engineer with 3+ years of experience specializing in developing cybersecurity solutions and robust applications using Python, JavaScript, and frameworks like Django and React. My work included building softwares, dashboards, APIs and automation tools to enhance threat intelligence and streamline security operations.`;
+export const HERO_CONTENT_P1 = `I am a driven Software Engineer with 3+ years of experience specializing in developing cybersecurity solutions and robust applications using Python, JavaScript, and frameworks such as Django and React. My work includes building software, dashboards, APIs, and automation tools to enhance threat intelligence and streamline security operations.`;
 
 export const HERO_CONTENT_P2 = `I am currently pursuing my M.Sc. in Computer Science at the International University of Applied Sciences, Berlin, where I aim to deepen my expertise and contribute to innovative technological advancements.`;
 
-export const HERO_CONTENT_P3 = `Beyond my professional pursuits, I hold a 1st Degree Black Belt in Taekwondo, a sport I continue to practice actively. I am also a mural artist who has transformed spaces across cafes and schools with vibrant wall art. When not coding or creating, I love to cook and stay active through sports, fitness, and bouldering.`;
+export const HERO_CONTENT_P3 = `Outside of my professional pursuits, I hold a 1st Degree Black Belt in Taekwondo, a discipline I actively practice. I am also a mural artist who has transformed spaces in cafes and schools with vibrant and creative wall art. When I’m not coding or creating, I enjoy cooking, staying active through sports and fitness, and exploring bouldering.`;
 
 export const EXPERIENCES = [
   {
@@ -23,7 +23,7 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "React.js", "MySQL", "Dolibarr CRM"],
   },
   {
-    year: "Sep 2022 - Sep 2024",
+    year: "Sep 2021 - Sep 2024",
     duration : "(3 Years 1 Month)",
     role: "Senior Software Engineer",
     company: "Subex",
