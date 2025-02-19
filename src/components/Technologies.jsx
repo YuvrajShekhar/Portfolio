@@ -35,69 +35,96 @@ const Technologies = () => {
         initial={{opacity:0, x:-100}}
         transition={{duration:1.5}}
         className='flex flex-wrap items-center justify-center gap-4'>
+            <div class="flex flex-col items-center space-y-4">
             <motion.div 
             variants={iconVariants(2)}
             initial="initial"
             animate="animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
+            className='rounded-2xl p-4'>
                 <RiReactjsLine title="React" className='text-7xl text-cyan-400'/>
             </motion.div>
+            <div class="text-xl">React</div>
+            </div>
+            <div class="flex flex-col items-center space-y-4">
             <motion.div 
             variants={iconVariants(5)}
             initial="initial"
             animate="animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
+            className='rounded-2xl p-4'>
                 <SiDjango title="Django" className='text-7xl' color='rgb(21 128 61/var(--tw-text-opacity))'/>
             </motion.div>
+            <div class="text-xl">Django</div>
+            </div>
+            <div class="flex flex-col items-center space-y-4">
             <motion.div 
             variants={iconVariants(3)}
             initial="initial"
             animate="animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
+            className='rounded-2xl p-4'>
                 <FaPython  title="Python" className='text-7xl' color='rgb(49 112 163/var(--tw-text-opacity))'/>
             </motion.div>
+            <div class="text-xl">Python</div>
+            </div>
+            <div class="flex flex-col items-center space-y-4">
             <motion.div 
             variants={iconVariants(6)}
             initial="initial"
             animate="animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
+            className='rounded-2xl p-4'>
                 <IoLogoJavascript  title="Javascript" className='text-7xl' color='rgb(255, 255, 0)'/ >
             </motion.div>
+            <div class="text-xl">Javascript</div>
+            </div>
+            <div class="flex flex-col items-center space-y-4">
             <motion.div 
             variants={iconVariants(2)}
             initial="initial"
             animate="animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
+            className='rounded-2xl p-4'>
                 <SiMysql title="Mysql" className='text-7xl' color='#00758F'/>
             </motion.div>
+            <div class="text-xl">Mysql</div>
+            </div>
+            <div class="flex flex-col items-center space-y-4">
             <motion.div 
-            variants={iconVariants(9)}
+            variants={iconVariants(5)}
             initial="initial"
             animate="animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
+            className='rounded-2xl p-4'>
                 <BiLogoMongodb title="Mongodb" className='text-7xl' color='#4DB33D'/>
             </motion.div>
+            <div class="text-xl">Mongodb</div>
+            </div>
+            <div class="flex flex-col items-center space-y-4">
             <motion.div 
             variants={iconVariants(1.5)}
             initial="initial"
             animate="animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
+            className='rounded-2xl p-4'>
                 <FaGitAlt title="Git" className='text-7xl' color='#f1502f'/>
             </motion.div>
+            <div class="text-xl">Git</div>
+            </div>
+            <div class="flex flex-col items-center space-y-4">
             <motion.div 
             variants={iconVariants(6.5)}
             initial="initial"
             animate="animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
+            className='rounded-2xl p-4'>
                 <SiApache title="Apache" className='text-7xl' color='#CC2336'/>
             </motion.div>
+            <div class="text-xl">Apache</div>
+            </div>
+            <div class="flex flex-col items-center space-y-4">
             <motion.div 
             variants={iconVariants(4)}
             initial="initial"
             animate="animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
+            className='rounded-2xl p-4'>
                 <FaLinux title="Linux" className='text-7xl' color='#ffffff'/>
             </motion.div>
+            <div class="text-xl">Linux</div>
+            </div>
         </motion.div>
         </div>
   )

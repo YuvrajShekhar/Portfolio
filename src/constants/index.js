@@ -3,6 +3,18 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
+const getDurationSince = (startYear, startMonth) => {
+  const startDate = new Date(startYear, startMonth - 1); // Months are 0-indexed
+  const currentDate = new Date();
+  
+  const yearsDiff = currentDate.getFullYear() - startDate.getFullYear();
+  const monthsDiff = currentDate.getMonth() - startDate.getMonth();
+  
+  const totalMonths = yearsDiff * 12 + monthsDiff + 1;
+  
+  return `(${totalMonths} Months)`;
+};
+
 export const HERO_CONTENT_P1 = `I am a driven Software Engineer with 3+ years of experience specializing in developing cybersecurity solutions and robust applications using Python, JavaScript, and frameworks such as Django and React. My work includes building software, dashboards, APIs, and automation tools to enhance threat intelligence and streamline security operations.`;
 
 export const HERO_CONTENT_P2 = `I am currently pursuing my M.Sc. in Computer Science at the International University of Applied Sciences, Berlin, where I aim to deepen my expertise and contribute to innovative technological advancements.`;
@@ -12,14 +24,14 @@ export const HERO_CONTENT_P3 = `Outside of my professional pursuits, I hold a 1s
 export const EXPERIENCES = [
   {
     year: "Nov 2024 - Present",
-    duration : "(3 Months)",
+    duration: getDurationSince(2024, 11), // Dynamically calculates the months
     role: "Information Technology Administrator",
     company: "Bearlocal GmbH",
     description: {
-      p1 : `Developed solutions: Built a modern landing page for telecommunication software using React and optimized IT setups with encryption tools like BitLocker and VeraCrypt.`,
-      p2 : `Enhanced CRM: Customized Dolibarr CRM with advanced modules for contract management, ticketing, and time tracking.`,
-      p3 : `Streamlined processes: Implemented automation ideas, including WhatsApp integration, SEO optimization, and task management.`,
-    } ,
+      p1: `Developed solutions: Built a modern landing page for telecommunication software using React and optimized IT setups with encryption tools like BitLocker and VeraCrypt.`,
+      p2: `Enhanced CRM: Customized Dolibarr CRM with advanced modules for contract management, ticketing, and time tracking.`,
+      p3: `Streamlined processes: Implemented automation ideas, including WhatsApp integration, SEO optimization, and task management.`,
+    },
     technologies: ["Javascript", "React.js", "MySQL", "Dolibarr CRM"],
   },
   {
