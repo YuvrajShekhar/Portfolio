@@ -31,7 +31,7 @@ export const EXPERIENCES = [
       p1: `Developed solutions: Built a modern landing page for NetzNavi using React, implementing smooth scrolling, responsive design, and multilingual support. Enhanced styling, content structuring, and email functionality.`,
       p2: `Optimized IT infrastructure: Configured encryption solutions for internal and external drives using BitLocker and VeraCrypt. Successfully set up system backups, new devices, and secure email configurations.`,
       p3: `Enhanced CRM functionality: Customized Dolibarr CRM with advanced modules for contract management, ticketing, customer tagging, and email notifications. Implemented sorting, search, and filtering features for better usability.`,
-      p3: `Automated data retrieval: Developed a Check24 web scraper using Python to fetch and process address-based results, improving efficiency with config parsers, CSV-to-Excel conversion, and formatted output handling.`,
+      p4: `Automated data retrieval: Developed a Check24 web scraper using Python to fetch and process address-based results, improving efficiency with config parsers, CSV-to-Excel conversion, and formatted output handling.`,
     },
     technologies: ["React.js", "Python", "MySQL", "Dolibarr CRM"],
   },
