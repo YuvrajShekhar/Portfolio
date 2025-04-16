@@ -5,6 +5,7 @@ import { FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiMysql } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
+import { BiLogoGoLang } from "react-icons/bi";
 import { FaGitAlt } from "react-icons/fa";
 import { SiApache } from "react-icons/si";
 import { FaLinux } from "react-icons/fa";
@@ -67,6 +68,16 @@ const Technologies = () => {
             </div>
             <div class="flex flex-col items-center space-y-4">
             <motion.div 
+            variants={iconVariants(5)}
+            initial="initial"
+            animate="animate"
+            className='rounded-2xl p-4'>
+                <BiLogoGoLang title="GoLang" className='text-7xl' color='#29BEB0'/>
+            </motion.div>
+            <div class="text-xl">GoLang</div>
+            </div>
+            <div class="flex flex-col items-center space-y-4">
+            <motion.div 
             variants={iconVariants(6)}
             initial="initial"
             animate="animate"
@@ -93,7 +104,7 @@ const Technologies = () => {
             className='rounded-2xl p-4'>
                 <BiLogoMongodb title="Mongodb" className='text-7xl' color='#4DB33D'/>
             </motion.div>
-            <div class="text-xl">Mongodb</div>
+            <div class="text-xl">MongoDB</div>
             </div>
             <div class="flex flex-col items-center space-y-4">
             <motion.div 
