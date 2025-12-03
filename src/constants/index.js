@@ -25,7 +25,7 @@ export const EXPERIENCES = [
   {
     year: "April 2025 - Present",
     duration: getDurationSince(2025, 4), // Dynamically calculates the months
-    role: "Information Technology Administrator",
+    role: "Software Developer",
     company: "Bearlocal GmbH",
     description: {
       p1: `Developed a comprehensive sales analytics dashboard using Chart.js, implementing multi-dimensional KPI tracking, profitability scoring algorithms, and predictive modeling for call center performance optimization. Engineered interactive visualizations processing CSV data to deliver real-time insights, crisis detection, and recovery scenario planning with 25+ chart types across 7 analytical views.`,
