@@ -15,7 +15,7 @@ const getDurationSince = (startYear, startMonth) => {
   return `(${totalMonths} Months)`;
 };
 
-export const HERO_CONTENT_P1 = `I am a driven Software Engineer with 3+ years of experience specializing in developing cybersecurity solutions and robust applications using Python, JavaScript, and frameworks such as Django and React. My work includes building software, dashboards, APIs, and automation tools to enhance threat intelligence and streamline security operations.`;
+export const HERO_CONTENT_P1 = `I am a driven Software Engineer with 4+ years of experience specializing in developing cybersecurity solutions and robust applications using Python, JavaScript, and frameworks such as Django and React. My work includes building software, dashboards, APIs, and automation tools to enhance threat intelligence and streamline security operations.`;
 
 export const HERO_CONTENT_P2 = `I am currently pursuing my M.Sc. in Computer Science at the International University of Applied Sciences, Berlin, where I aim to deepen my expertise and contribute to innovative technological advancements.`;
 
