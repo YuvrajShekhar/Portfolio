@@ -23,8 +23,21 @@ export const HERO_CONTENT_P3 = `Outside of my professional pursuits, I hold a 1s
 
 export const EXPERIENCES = [
   {
-    year: "Nov 2024 - Present",
-    duration: getDurationSince(2024, 11), // Dynamically calculates the months
+    year: "April 2025 - Present",
+    duration: getDurationSince(2025, 04), // Dynamically calculates the months
+    role: "Information Technology Administrator",
+    company: "Bearlocal GmbH",
+    description: {
+      p1: `Developed a comprehensive sales analytics dashboard using Chart.js, implementing multi-dimensional KPI tracking, profitability scoring algorithms, and predictive modeling for call center performance optimization. Engineered interactive visualizations processing CSV data to deliver real-time insights, crisis detection, and recovery scenario planning with 25+ chart types across 7 analytical views.`,
+      p2: `Developed a responsive React-based landing page with Tailwind CSS, implementing dynamic content sections and optimized performance metrics. Integrated modern build tools and deployed with CI/CD pipeline for seamless updates and testing capabilities.`,
+      p3: `Developed a Full-stack real estate visualization platform built with React, Leaflet Maps, and Tailwind CSS, featuring interactive property discovery with custom markers and glassmorphism UI. Implements modular component architecture with dynamic property filtering, responsive dark theme design, and real-time map interactions for Berlin rental market.`,
+      p4 : `Developed a full-stack document automation system using React and FastAPI that dynamically generates Word documents from Jinja2 templates with automated form generation, placeholder extraction, and DOCX validation capabilities.`,
+    },
+    technologies: ["React.js", "Python", "Django", "FastAPI", "Chart.js"],
+  },
+  {
+    year: "Nov 2024 - March 2025",
+    duration: "(5 Months)",
     role: "Information Technology Administrator",
     company: "Bearlocal GmbH",
     description: {
