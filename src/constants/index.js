@@ -24,7 +24,7 @@ export const HERO_CONTENT_P3 = `Outside of my professional pursuits, I hold a 1s
 export const EXPERIENCES = [
   {
     year: "April 2025 - Present",
-    duration: getDurationSince(2025, 04), // Dynamically calculates the months
+    duration: getDurationSince(2025, 4), // Dynamically calculates the months
     role: "Information Technology Administrator",
     company: "Bearlocal GmbH",
     description: {
